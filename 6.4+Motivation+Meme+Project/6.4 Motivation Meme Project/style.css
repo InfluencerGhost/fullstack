@@ -1,0 +1,19 @@
+body {
+    font-family: 'Libre Baskerville', caveat;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.lady {
+    border: 5px solid white;
+    margin: 0;
+}
+
+.container {
+    margin: 100px;
+}
