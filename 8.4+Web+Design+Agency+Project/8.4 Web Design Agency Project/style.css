@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
 .main {
   flex: 1;
 }
@@ -14,8 +15,57 @@ h1 {
   font-size: 5rem;
 }
 
+.main>h1>span {
+  color: navy;
+}
+
+.card {
+  width: 45%;
+  margin: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+ float: right;
+}
+
+.tile-image {
+  width: 200px;
+  float: left;
+  margin: 20px;
+}
+
 footer {
+  clear: both;
   text-align: right;
   color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
 }
 
